@@ -3,3 +3,4 @@ log.txt
 *.tgz
 node_modules/
 uploads/EOF
+.env
