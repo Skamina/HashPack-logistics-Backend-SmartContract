@@ -1,1 +1,5 @@
-.env
+log.txt
+*.zip
+*.tgz
+node_modules/
+uploads/EOF
