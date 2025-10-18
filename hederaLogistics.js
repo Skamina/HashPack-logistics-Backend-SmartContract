@@ -28,6 +28,8 @@ const HEDERA_TOKEN_ID = TokenId.fromString(process.env.HEDERA_TOKEN_ID);
 const REWARD_AMOUNT = 10;
 const PORT = process.env.PORT || 3000;
 
+let deliveries = [];
+
 app.post("/api/assign-delivery", async (req, res) => {
   try {
     const { packageId, riderId, customerId, deliveryAddress } = req.body;
@@ -55,6 +57,29 @@ app.post("/api/assign-delivery", async (req, res) => {
     console.error("Error assigning delivery:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
+});
+
+app.post('/api/delivery/start', (req, res) => {
+  const { packageId, riderId } = req.body;
+
+  if (!packageId || !riderId) {
+    return res.status(400).json({ error: "packageId and riderId are required" });
+  }
+
+  const delivery = deliveries[packageId];
+  if (!delivery || delivery.riderId !== riderId) {
+    return res.status(404).json({ error: "Delivery not found or rider mismatch" });
+  }
+
+  delivery.status = "In Progress";
+  delivery.startTime = new Date().toISOString();
+
+  console.log(`Notify customer: Package ${packageId} is now in progress. Rider ${riderId} is delivering.`);
+
+  return res.status(200).json({
+    message: "Delivery started successfully",
+    data: delivery
+  });
 });
 
 app.post('/delivery/update-status', async (req, res) => {
