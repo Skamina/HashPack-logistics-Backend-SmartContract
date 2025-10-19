@@ -82,6 +82,28 @@ app.post('/api/delivery/start', (req, res) => {
   });
 });
 
+app.get('/api/delivery/track/:packageId', (req, res) => {
+  const { packageId } = req.params;
+  const delivery = deliveries.find(d => d.packageId === packageId);
+
+  if (!delivery) {
+    return res.status(404).json({ error: "Delivery not found" });
+  }
+
+  const trackingInfo = {
+    riderId: delivery.riderId,
+    packageId: delivery.packageId,
+    status: delivery.status || "In Progress",
+    location: {
+      latitude: 10.315,
+      longitude: 9.843
+    },
+    lastUpdated: new Date().toISOString()
+  };
+
+  res.json(trackingInfo);
+});
+
 app.post('/delivery/update-status', async (req, res) => {
     const { deliveryId, riderId, status } = req.body;
     if (!deliveryId || !riderId || !status) return res.status(400).send('Missing parameters');
