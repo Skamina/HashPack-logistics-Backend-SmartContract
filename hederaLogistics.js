@@ -127,16 +127,31 @@ app.post("/api/delivery/adminverify/:packageid", async (req, res) => {
     const { packageid } = req.params;
     const delivery = await Delivery.findOne({ packageid });
 
-    if (!delivery) return res.status(404).json({ error: "Delivery not found" });
+    if (!delivery)
+      return res.status(404).json({ error: "Delivery not found" });
     if (delivery.status !== "delivered")
       return res.status(400).json({ error: "Delivery not yet delivered" });
 
     delivery.status = "verified";
     delivery.verifiedAt = new Date();
+
+    const rewardAmount = 50;
+    delivery.reward = rewardAmount;
+
     await delivery.save();
 
-    res.status(200).json({ message: "Delivery verified successfully", delivery });
+    console.log(
+      `✅ Delivery ${packageid} verified and rider ${delivery.riderId} rewarded ₦${rewardAmount}`
+    );
+
+    res.status(200).json({
+      message: "Delivery verified successfully and rider rewarded automatically",
+      packageid,
+      riderId: delivery.riderId,
+      rewardAmount,
+    });
   } catch (err) {
+    console.error("Admin verification error:", err);
     res.status(500).json({ error: "Server error during verification" });
   }
 });
