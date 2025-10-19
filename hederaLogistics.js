@@ -194,24 +194,28 @@ res.json({ status: "proof logged", hash });
   }
 });
 
-app.get("/api/delivery/:packageId", async (req, res) => {
+app.get("/api/rewards/history/:riderId", async (req, res) => {
   try {
-    const { packageId } = req.params;
+    const { riderId } = req.params;
 
-    const trackingData = {
-      packageId,
-      rider: "RDR456",
-      status: "Delivered",
-      proofHash: "Qm9dfg123456abc789",
-      timestamp: new Date().toISOString(),
-    };
+    const riderRewards = deliveries.filter(
+      d => d.riderId === riderId && d.reward
+    );
 
-    return res.status(200).json({
-      message: "Delivery tracking fetched successfully",
-      data: trackingData,
+    if (!riderRewards.length) {
+      return res.status(404).json({ message: "No rewards found for this rider" });
+    }
+
+    res.status(200).json({
+      message: "Reward history fetched successfully",
+      data: riderRewards.map(d => ({
+        packageId: d.packageId,
+        rewardAmount: d.reward,
+        verifiedAt: d.verifiedAt,
+      })),
     });
   } catch (error) {
-    console.error("Error in delivery tracking:", error);
+    console.error("Error fetching reward history:", error);
     res.status(500).json({ error: "Internal Server Error" });
   }
 });
