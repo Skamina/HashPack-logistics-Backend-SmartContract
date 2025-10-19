@@ -122,6 +122,25 @@ app.post('/delivery/update-status', async (req, res) => {
     }
 });
 
+app.post("/api/delivery/adminverify/:packageid", async (req, res) => {
+  try {
+    const { packageid } = req.params;
+    const delivery = await Delivery.findOne({ packageid });
+
+    if (!delivery) return res.status(404).json({ error: "Delivery not found" });
+    if (delivery.status !== "delivered")
+      return res.status(400).json({ error: "Delivery not yet delivered" });
+
+    delivery.status = "verified";
+    delivery.verifiedAt = new Date();
+    await delivery.save();
+
+    res.status(200).json({ message: "Delivery verified successfully", delivery });
+  } catch (err) {
+    res.status(500).json({ error: "Server error during verification" });
+  }
+});
+
 app.post('/delivery/reward', async (req, res) => {
     const { riderAccountId } = req.body;
     if (!riderAccountId) return res.status(400).send('Missing riderAccountId');
