@@ -220,6 +220,10 @@ app.get("/api/rewards/history/:riderId", async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Hey, This HashPack-Logistics Backend is running fine!');
+});
+
 app.listen(PORT, () => {
   console.log(`Hedera Logistics server running on port ${PORT}`);
 });
