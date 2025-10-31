@@ -63,6 +63,22 @@ If scaled continent-wide, Hashpack could:
 - **Massive market opportunity:** Africa’s logistics market is worth billions but remains underserved and fragmented.
 - **SME empowerment:** By solving last-mile delivery trust, Hashpack unlocks e-commerce growth for millions of small businesses.
 - **Scalable vision:** From cities to villages, our hybrid model works across Africa’s unique logistics landscape.
+- HashPack Logistics Ltd is not just another build, we are a fully registered Private Limited Liability Company.
+We hold a Certificate of Incorporation from the Corporate Affairs Commission (CAC)
+Reg No: 8743740, with our Memorandum and Articles of Association (MEMART) and Taxpayer Identification Number (TIN) issued by the Joint Tax Board (FIRS), we as well secured Special Control Unit Against Money Laundering (SCUML) Certificate, Tax Clearance Certificate (TCC) is the last secured.
+
+We are also in the process of securing additional compliance certifications, such as:
+Goods-In-Transit (GIT) Insurance and
+other relevant industry licenses (e.g., NIPOST Courier & Logistics License).
+
+ This is the perfect time to build Africa’s trusted logistics.
+
+
+
+## ASK:
+We’re seeking $200,000 in grant funding to scale our logistics MVP and expand operations to more cities and vehicles from inception.
+The funds will be allocated toward platform upgrades, user experience improvements, and, most importantly, launching pilot operations to validate and optimize our model in real-world conditions.
+
 
 ## Vision
 
