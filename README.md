@@ -1,7 +1,7 @@
 # Hashpack Logistics Backend Smart Contract
 
 ![Hashpack Logistics](79075.jpg)
-
+## Track: DLT for Operations
 ## The Problem
 
 Africa’s logistics sector is broken. Customers face unreliable deliveries, no real-time tracking, fraudulent riders, and frequent package losses. SMEs and informal vendors struggle with last-mile logistics, hurting their businesses and limiting access to markets.
