@@ -79,6 +79,67 @@ other relevant industry licenses (e.g., NIPOST Courier & Logistics License).
 We’re seeking $200,000 in grant funding to scale our logistics MVP and expand operations to more cities and vehicles from inception.
 The funds will be allocated toward platform upgrades, user experience improvements, and, most importantly, launching pilot operations to validate and optimize our model in real-world conditions.
 
+PROPOSED DEVELOPMENT PHASES
+To align with Hashpack Logistics’ staged expansion strategy and long-term vision, Amko
+Technology proposes a three-phase development roadmap. Each phase progressively builds
+on the previous one — supporting increased operational maturity, geographic expansion, and
+advanced logistics capabilities.
+Note: This current proposal focuses exclusively on Phase 1 (MVP and local operations
+in Kano and Abuja). Subsequent phases will be scoped and costed in follow-up
+engagements, based on performance insights and evolving needs.
+Phase 1: Core MVP & Local Operations (0–6 Months)
+Target Locations: Kano & Abuja
+Goal: Rapidly deploy a fully functional MVP platform to power delivery operations, rider
+management, and customer engagement in Nigeria’s most commercially active cities.
+Core Objectives:
+● Provide essential tools for customers, riders, and vendors to interact seamlessly.
+● Launch from day one with warehouse support and hub coordination in Kano and
+Abuja.
+● Build a flexible foundation that scales easily to nationwide and cross-border logistics.
+Key Features:
+● Customer Web and Mobile App
+○ Delivery booking, tracking, OTP confirmation, payment option
+(Pay-on-Delivery)
+● Rider Mobile App
+○ Job acceptance, status update (picked, in transit, delivered), GPS-based
+navigation
+● Admin/Dispatcher Backend
+○ Order tracking, customer and rider management, role-based access control
+● Vendor Portal
+○ Basic fulfillment workflow, delivery status visibility
+.multi hub support 
+○ Kano & Abuja dispatch centers or warehouses
+● Notification System
+○ SMS, email, and in-app alerts
+● API-ready Architecture
+○ Built for future integrations with marketplaces, payment systems, and CRMs
+● Security & Compliance
+○ Basic data protection measures and legal compliance foundations
+Technology Stack:
+● Backend: Django REST Framework (DRF)
+● Frontend (Web): React.js
+● Mobile App: Flutter (for both iOS and Android)
+● Hosting: Cloud-based (AWS or equivalent), scalable container deployment (Docker)
+● Data Layer: PostgreSQL, Redis (for real-time operations)
+Phase 2: Nationwide Scale-Up & ECOWAS Integration (6–18 Months)
+Target Locations: All Nigerian states + ECOWAS member countries
+Goal: Expand logistics reach, enable smart dispatching, and prepare for international
+cross-border commerce.
+Preview of Features:
+● Multi-region support with dynamic routing
+● Cold chain logistics & returns handling
+● Multi-language and multi-currency support
+● Dispatcher dashboards, advanced vendor analytics
+● eCommerce integrations and business subscription plans
+Phase 3: International Freight & Global Reach (2+ Years)
+Target Locations: Europe, UK, UAE
+Goal: Enable international shipping, customs handling, and high-volume freight corridor
+operations.
+Preview of Features:
+● Sea/air cargo booking and tracking
+● International vendor onboarding
+● Integration with ports, airlines, and customs APIs
+● Cross-border document compliance and blockchain readiness
 
 ## Vision
 
