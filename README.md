@@ -79,7 +79,7 @@ other relevant industry licenses (e.g., NIPOST Courier & Logistics License).
 We’re seeking $200,000 in grant funding to scale our logistics MVP and expand operations to more cities and vehicles from inception.
 The funds will be allocated toward platform upgrades, user experience improvements, and, most importantly, launching pilot operations to validate and optimize our model in real-world conditions.
 
-PROPOSED DEVELOPMENT PHASES
+**PROPOSED DEVELOPMENT PHASES**
 To align with Hashpack Logistics’ staged expansion strategy and long-term vision, Amko
 Technology proposes a three-phase development roadmap. Each phase progressively builds
 on the previous one — supporting increased operational maturity, geographic expansion, and
@@ -87,7 +87,7 @@ advanced logistics capabilities.
 Note: This current proposal focuses exclusively on Phase 1 (MVP and local operations
 in Kano and Abuja). Subsequent phases will be scoped and costed in follow-up
 engagements, based on performance insights and evolving needs.
-Phase 1: Core MVP & Local Operations (0–6 Months)
+**Phase 1**: Core MVP & Local Operations (0–6 Months)
 Target Locations: Kano & Abuja
 Goal: Rapidly deploy a fully functional MVP platform to power delivery operations, rider
 management, and customer engagement in Nigeria’s most commercially active cities.
@@ -121,19 +121,19 @@ Technology Stack:
 ● Mobile App: Flutter (for both iOS and Android)
 ● Hosting: Cloud-based (AWS or equivalent), scalable container deployment (Docker)
 ● Data Layer: PostgreSQL, Redis (for real-time operations)
-Phase 2: Nationwide Scale-Up & ECOWAS Integration (6–18 Months)
+**Phase 2**: Nationwide Scale-Up & ECOWAS Integration (6–18 Months)
 Target Locations: All Nigerian states + ECOWAS member countries
 Goal: Expand logistics reach, enable smart dispatching, and prepare for international
 cross-border commerce.
-Preview of Features:
+**Preview of Features:**
 ● Multi-region support with dynamic routing
 ● Cold chain logistics & returns handling
 ● Multi-language and multi-currency support
 ● Dispatcher dashboards, advanced vendor analytics
 ● eCommerce integrations and business subscription plans
-Phase 3: International Freight & Global Reach (2+ Years)
+**Phase 3**: International Freight & Global Reach (2+ Years)
 Target Locations: Europe, UK, UAE
-Goal: Enable international shipping, customs handling, and high-volume freight corridor
+**Goal**: Enable international shipping, customs handling, and high-volume freight corridor
 operations.
 Preview of Features:
 ● Sea/air cargo booking and tracking
