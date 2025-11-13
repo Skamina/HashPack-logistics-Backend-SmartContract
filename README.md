@@ -1,4 +1,5 @@
 # Hashpack Logistics Backend Smart Contract
+https://hashpacklogistics.com/
 
 ![Hashpack Logistics](79075.jpg)
 ## Track: DLT for Operations
@@ -15,6 +16,7 @@ Hashpack Logistics is the first Africa-focused logistics and commerce platform b
 ![Mobile-first Apps](79082.jpg)
 
 - **Mobile-first apps:** Customers book deliveries in seconds, riders get optimized routes, and vendors manage orders from one dashboard.
+  Prototype link: https://www.figma.com/proto/QJfZ1FsNBR5yM8VVtywNyB/Hashpack?node-id=167-1303&starting-point-node-id=167%3A1303
 
 ![DLT-powered Trust](79060.jpg)
 
@@ -80,70 +82,72 @@ We’re seeking $200,000 in grant funding to scale our logistics MVP and expand 
 The funds will be allocated toward platform upgrades, user experience improvements, and, most importantly, launching pilot operations to validate and optimize our model in real-world conditions.
 
 **PROPOSED DEVELOPMENT PHASES**
-To align with Hashpack Logistics’ staged expansion strategy and long-term vision, Amko
-Technology proposes a three-phase development roadmap. Each phase progressively builds
-on the previous one — supporting increased operational maturity, geographic expansion, and
-advanced logistics capabilities.
+
+To align with Hashpack Logistics’ staged expansion strategy and long-term vision, Amko Technology (Hashpack partner) proposes a three-phase development roadmap. Each phase progressively builds on the previous one — supporting increased operational maturity, geographic expansion, and advanced logistics capabilities.
+
 Note: This current proposal focuses exclusively on Phase 1 (MVP and local operations
 in Kano and Abuja). Subsequent phases will be scoped and costed in follow-up
 engagements, based on performance insights and evolving needs.
-**Phase 1**: Core MVP & Local Operations (0–6 Months)
+
+## **Phase 1**: Core MVP & Local Operations (0–6 Months)
 Target Locations: Kano & Abuja
 Goal: Rapidly deploy a fully functional MVP platform to power delivery operations, rider
 management, and customer engagement in Nigeria’s most commercially active cities.
 Core Objectives:
-● Provide essential tools for customers, riders, and vendors to interact seamlessly.
-● Launch from day one with warehouse support and hub coordination in Kano and
+
+*  Provide essential tools for customers, riders, and vendors to interact seamlessly.
+*  Launch from day one with warehouse support and hub coordination in Kano and
 Abuja.
-● Build a flexible foundation that scales easily to nationwide and cross-border logistics.
+*  Build a flexible foundation that scales easily to nationwide and cross-border logistics.
 Key Features:
-● Customer Web and Mobile App
+*  Customer Web and Mobile App
 ○ Delivery booking, tracking, OTP confirmation, payment option
 (Pay-on-Delivery)
-● Rider Mobile App
+*  Rider Mobile App
 ○ Job acceptance, status update (picked, in transit, delivered), GPS-based
 navigation
-● Admin/Dispatcher Backend
+*  Admin/Dispatcher Backend
 ○ Order tracking, customer and rider management, role-based access control
-● Vendor Portal
+* Vendor Portal
 ○ Basic fulfillment workflow, delivery status visibility
-.multi hub support 
+    multi hub support 
 ○ Kano & Abuja dispatch centers or warehouses
-● Notification System
+* Notification System
 ○ SMS, email, and in-app alerts
-● API-ready Architecture
+* API-ready Architecture
 ○ Built for future integrations with marketplaces, payment systems, and CRMs
-● Security & Compliance
+* Security & Compliance
 ○ Basic data protection measures and legal compliance foundations
 Technology Stack:
-● Backend: Django REST Framework (DRF)
-● Frontend (Web): React.js
-● Mobile App: Flutter (for both iOS and Android)
-● Hosting: Cloud-based (AWS or equivalent), scalable container deployment (Docker)
-● Data Layer: PostgreSQL, Redis (for real-time operations)
-**Phase 2**: Nationwide Scale-Up & ECOWAS Integration (6–18 Months)
+* Backend: Django REST Framework (DRF)
+ Frontend (Web): React.js
+* Mobile App: Flutter (for both iOS and Android)
+* Hosting: Cloud-based (AWS or equivalent), scalable container deployment (Docker)
+* Data Layer: PostgreSQL, Redis (for real-time operations)
+## **Phase 2**: Nationwide Scale-Up & ECOWAS Integration (6–18 Months)
 Target Locations: All Nigerian states + ECOWAS member countries
 Goal: Expand logistics reach, enable smart dispatching, and prepare for international
 cross-border commerce.
 **Preview of Features:**
-● Multi-region support with dynamic routing
-● Cold chain logistics & returns handling
-● Multi-language and multi-currency support
-● Dispatcher dashboards, advanced vendor analytics
-● eCommerce integrations and business subscription plans
-**Phase 3**: International Freight & Global Reach (2+ Years)
+* Multi-region support with dynamic routing
+* Cold chain logistics & returns handling
+* Multi-language and multi-currency support
+* Dispatcher dashboards, advanced vendor analytics
+* eCommerce integrations and business subscription plans
+## **Phase 3**: International Freight & Global Reach (2+ Years)
 Target Locations: Europe, UK, UAE
-**Goal**: Enable international shipping, customs handling, and high-volume freight corridor
+## **Goal**: Enable international shipping, customs handling, and high-volume freight corridor
 operations.
-Preview of Features:
-● Sea/air cargo booking and tracking
-● International vendor onboarding
-● Integration with ports, airlines, and customs APIs
-● Cross-border document compliance and blockchain readiness
+
+## Preview of Features:
+* Sea/air cargo booking and tracking
+* International vendor onboarding
+* Integration with ports, airlines, and customs APIs
+* Cross-border document compliance and blockchain readiness
 
 ## Vision
 
-Hashpack Logistics is not just another delivery app — it is a movement to create Africa’s first decentralized, transparent logistics and commerce network.
+Hashpack Logistics is not just another delivery app - it is a movement to create Africa’s first decentralized, transparent logistics and commerce network.
 
 Our vision is to make fast, affordable, and tamper-proof deliveries accessible to every African, whether they are in urban centers or rural communities, and to become the continent’s backbone for trusted commerce.
 
@@ -185,4 +189,4 @@ Distributed under the MIT License. See `LICENSE` for details.
 
 ## Contact
 
-For inquiries, partnerships, or support, please reach out via [GitHub Issues](https://github.com/Skamina/HashPack-logistics-Backend-SmartContract/issues) or email us at [your-contact-email@example.com].
+For inquiries, partnerships, or support, please reach out via [GitHub Issues](https://github.com/Skamina/HashPack-logistics-Backend-SmartContract/issues) or email us at hashpacklogistics1@gmail.com.
