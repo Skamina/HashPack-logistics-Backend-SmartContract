@@ -189,4 +189,4 @@ Distributed under the MIT License. See `LICENSE` for details.
 
 ## Contact
 
-For inquiries, partnerships, or support, please reach out via [GitHub Issues](https://github.com/Skamina/HashPack-logistics-Backend-SmartContract/issues) or email us at hashpacklogistics1@gmail.com.
+For inquiries, partnerships, or support, please reach out via [Skamina](https://github.com/Skamina/HashPack-logistics-Backend-SmartContract/issues) or email us at hashpacklogistics1@gmail.com.
